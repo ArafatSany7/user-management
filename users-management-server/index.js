@@ -21,6 +21,11 @@ app.get("/", (req, res) => {
 app.get("/users", (req, res) => {
   res.send(users);
 });
+
+app.post("/users", (req, res) => {
+  console.log("post api hitting");
+  console.log(req.body);
+});
 app.listen(port, () => {
   console.log(`server is running in port : ${port}`);
 });
