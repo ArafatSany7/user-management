@@ -5,6 +5,6 @@
  * 4. Option will have three things : method
  * 5. option will have headers : 'content-type': "application/json"
  * 6. dont forget to send data by json.stringyfy
- * 7.on the server side dont forget to use express.json middle ware
- *
+ * 7. on the server side dont forget to use express.json middle ware
+ * 8.
  */
